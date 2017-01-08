@@ -15,10 +15,17 @@
 		475EFBBD1E0F6CA3009F6DF7 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475EFBBB1E0F6CA3009F6DF7 /* Live.storyboard */; };
 		475EFBC01E0F6CEE009F6DF7 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475EFBBE1E0F6CEE009F6DF7 /* Follow.storyboard */; };
 		475EFBC31E0F6D18009F6DF7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475EFBC11E0F6D18009F6DF7 /* Profile.storyboard */; };
+		475EFBC51E0F70A1009F6DF7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475EFBC41E0F70A1009F6DF7 /* MainViewController.swift */; };
+		475EFBCD1E0F7A75009F6DF7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475EFBCC1E0F7A75009F6DF7 /* HomeViewController.swift */; };
+		475EFBD01E0FED7B009F6DF7 /* UIBarbuttonitem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475EFBCF1E0FED7B009F6DF7 /* UIBarbuttonitem-Extension.swift */; };
+		475FEEAB1E10DF3100328C15 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FEEAA1E10DF3100328C15 /* PageTitleView.swift */; };
+		475FEEAD1E10E0AF00328C15 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FEEAC1E10E0AF00328C15 /* Common.swift */; };
+		475FEEB01E111EE700328C15 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FEEAF1E111EE700328C15 /* PageContentView.swift */; };
+		4782F1CD1E13819A002358C4 /* UIColor_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4782F1CC1E13819A002358C4 /* UIColor_extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47536B001E0EC2990067561D /* ImitateDYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImitateDYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47536B001E0EC2990067561D /* 歼20原型机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "歼20原型机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47536B031E0EC2990067561D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47536B081E0EC2990067561D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47536B0A1E0EC2990067561D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +35,14 @@
 		475EFBBC1E0F6CA3009F6DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ImitateDYZB/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		475EFBBF1E0F6CEE009F6DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ImitateDYZB/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		475EFBC21E0F6D18009F6DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ImitateDYZB/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		475EFBC41E0F70A1009F6DF7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		475EFBCC1E0F7A75009F6DF7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		475EFBCF1E0FED7B009F6DF7 /* UIBarbuttonitem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarbuttonitem-Extension.swift"; sourceTree = "<group>"; };
+		475FEEAA1E10DF3100328C15 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		475FEEAC1E10E0AF00328C15 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		475FEEAE1E10F15F00328C15 /* ImportantMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportantMark.h; sourceTree = "<group>"; };
+		475FEEAF1E111EE700328C15 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		4782F1CC1E13819A002358C4 /* UIColor_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,7 @@
 		47536AF71E0EC2990067561D = {
 			isa = PBXGroup;
 			children = (
+				475FEEAE1E10F15F00328C15 /* ImportantMark.h */,
 				47536B021E0EC2990067561D /* ImitateDYZB */,
 				47536B011E0EC2990067561D /* Products */,
 			);
@@ -52,7 +68,7 @@
 		47536B011E0EC2990067561D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47536B001E0EC2990067561D /* ImitateDYZB.app */,
+				47536B001E0EC2990067561D /* 歼20原型机.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +109,9 @@
 		475EFBB31E0F5873009F6DF7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				475EFBB81E0F6B9B009F6DF7 /* Home.storyboard */,
+				475EFBCB1E0F79ED009F6DF7 /* Model */,
+				475EFBCA1E0F79EA009F6DF7 /* View */,
+				475EFBC91E0F79E7009F6DF7 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -109,7 +127,9 @@
 		475EFBB51E0F5873009F6DF7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				47536B071E0EC2990067561D /* Main.storyboard */,
+				475EFBC81E0F79E1009F6DF7 /* Model */,
+				475EFBC71E0F79DA009F6DF7 /* View */,
+				475EFBC61E0F79D6009F6DF7 /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -125,16 +145,75 @@
 		475EFBB71E0F5873009F6DF7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				475EFBCE1E0FEC1B009F6DF7 /* Estension */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		475EFBC61E0F79D6009F6DF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47536B071E0EC2990067561D /* Main.storyboard */,
+				475EFBC41E0F70A1009F6DF7 /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		475EFBC71E0F79DA009F6DF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				475FEEAA1E10DF3100328C15 /* PageTitleView.swift */,
+				475FEEAF1E111EE700328C15 /* PageContentView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		475EFBC81E0F79E1009F6DF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		475EFBC91E0F79E7009F6DF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				475EFBB81E0F6B9B009F6DF7 /* Home.storyboard */,
+				475EFBCC1E0F7A75009F6DF7 /* HomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		475EFBCA1E0F79EA009F6DF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		475EFBCB1E0F79ED009F6DF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		475EFBCE1E0FEC1B009F6DF7 /* Estension */ = {
+			isa = PBXGroup;
+			children = (
+				475EFBCF1E0FED7B009F6DF7 /* UIBarbuttonitem-Extension.swift */,
+				475FEEAC1E10E0AF00328C15 /* Common.swift */,
+				4782F1CC1E13819A002358C4 /* UIColor_extension.swift */,
+			);
+			name = Estension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47536AFF1E0EC2990067561D /* ImitateDYZB */ = {
+		47536AFF1E0EC2990067561D /* 歼20原型机 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47536B121E0EC2990067561D /* Build configuration list for PBXNativeTarget "ImitateDYZB" */;
+			buildConfigurationList = 47536B121E0EC2990067561D /* Build configuration list for PBXNativeTarget "歼20原型机" */;
 			buildPhases = (
 				47536AFC1E0EC2990067561D /* Sources */,
 				47536AFD1E0EC2990067561D /* Frameworks */,
@@ -144,9 +223,9 @@
 			);
 			dependencies = (
 			);
-			name = ImitateDYZB;
+			name = "歼20原型机";
 			productName = ImitateDYZB;
-			productReference = 47536B001E0EC2990067561D /* ImitateDYZB.app */;
+			productReference = 47536B001E0EC2990067561D /* 歼20原型机.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +258,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47536AFF1E0EC2990067561D /* ImitateDYZB */,
+				47536AFF1E0EC2990067561D /* 歼20原型机 */,
 			);
 		};
 /* End PBXProject section */
@@ -207,6 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				47536B041E0EC2990067561D /* AppDelegate.swift in Sources */,
+				475EFBC51E0F70A1009F6DF7 /* MainViewController.swift in Sources */,
+				475FEEAB1E10DF3100328C15 /* PageTitleView.swift in Sources */,
+				4782F1CD1E13819A002358C4 /* UIColor_extension.swift in Sources */,
+				475FEEB01E111EE700328C15 /* PageContentView.swift in Sources */,
+				475EFBD01E0FED7B009F6DF7 /* UIBarbuttonitem-Extension.swift in Sources */,
+				475FEEAD1E10E0AF00328C15 /* Common.swift in Sources */,
+				475EFBCD1E0F7A75009F6DF7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47536B121E0EC2990067561D /* Build configuration list for PBXNativeTarget "ImitateDYZB" */ = {
+		47536B121E0EC2990067561D /* Build configuration list for PBXNativeTarget "歼20原型机" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47536B131E0EC2990067561D /* Debug */,
